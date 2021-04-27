@@ -1,0 +1,69 @@
+
+//Primary Button
+@mixin primary-button {
+    font-size: $paragraph-font-size;
+    padding: 1rem 2rem;
+    border-radius: $main-border-radius;
+    background-color: transparent;
+    margin: 2rem 0;
+    
+    &:hover {
+        background-color: $secondary-color;
+        border: 3px solid $primary-color;
+        color: $secondary-deco;
+    }
+    
+}
+@media (min-width:768px) {
+    button {
+        font-size: 3rem !important;
+        padding: 2rem 4rem !important;
+        margin: 3rem 0 !important;
+        
+    }
+}
+@media (min-width:1280px) {
+    button {
+        font-size: 2rem !important;
+        padding: 2rem 3.5rem !important;
+        margin: 2rem 0 !important;
+        
+    }
+}
+
+
+
+// ::before Font Awesome
+@mixin before-font-awesome ($number) {
+    font-family: FontAwesome;
+    padding-right: 1rem;
+    content: $number;
+    color: $primary-color;
+    font-weight: 700;
+}
+
+//Flex
+@mixin flex ($direction, $justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+
+}
+//Animated cog properties
+@mixin cog-properties ($color, $font-size, $position, $top, $left){
+    color: $color;
+    font-size: $font-size;
+    position: $position;
+    top: $top;
+    left: $left;
+    
+}
+@mixin cog-properties-bottom ($color, $font-size, $position, $bot, $left){
+    color: $color;
+    font-size: $font-size !important;
+    position: $position;
+    bottom: $bot;
+    left: $left;
+    
+}

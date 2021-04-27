@@ -1,0 +1,103 @@
+form {
+    margin: 3rem 0;
+    @include flex (column, space-around, center);
+    input {
+        width: 100%;
+        padding: 1rem 0;
+        margin: 1rem 0;
+        border: 2px solid $secondary-deco;
+        font-size: $paragraph-font-size;
+        
+    }
+    textarea {
+        width: 100%;
+        padding: 1rem 0;
+        height: 18rem;
+        margin: 1rem 0;
+        resize: none;
+        border: 2px solid $secondary-deco;
+        font-size: $paragraph-font-size;
+    }
+    label{
+        font-size: $paragraph-font-size;
+        font-weight: 700;
+        
+    }
+    button {
+        @include primary-button;
+    }
+}
+
+@media (min-width: 768px) {
+    form {
+        margin: 6rem 0;
+        input {
+            font-size: $paragraph-font-size-768;
+            
+        }
+        textarea {
+            border: 2px solid $secondary-deco;
+            font-size: $paragraph-font-size-768;
+        }
+        label{
+            font-size: $paragraph-font-size-768;
+            
+        }
+    }
+}
+@media (min-width: 1024px) {
+    form {
+        input {
+            font-size: $paragraph-font-size-1024;    
+        }
+        textarea {
+            font-size: $paragraph-font-size-1024;
+        }
+        label{
+            font-size: $paragraph-font-size-1024;
+        }
+    }
+}
+@media (min-width: 1280px) {
+    form {
+        margin: 0rem 0;
+        input {
+            font-size: $paragraph-font-size-1280;
+            
+        }
+        textarea {
+            font-size: $paragraph-font-size-1280;
+        }
+        label{
+            font-size: $paragraph-font-size-1280;
+        }
+    }
+}
+@media (min-width: 1440px) {
+    form {
+        margin: 6rem 0;
+        input {
+            font-size: $paragraph-font-size-1440;
+            
+        }
+        textarea {
+            font-size: $paragraph-font-size-1440;
+        }
+        label{
+            font-size: $paragraph-font-size-1440;  
+        }
+    }
+}
+@media (min-width: 1824px) {
+    form {
+        input {
+            font-size: $paragraph-font-size-1824;
+        }
+        textarea {
+            font-size: $paragraph-font-size-1824;
+        }
+        label{
+            font-size: $paragraph-font-size-1824; 
+        }
+    }
+}

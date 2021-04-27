@@ -1,0 +1,139 @@
+table {
+    margin: 4rem 0;
+    width: 100%;
+    border-spacing: 3rem 1rem;
+    tbody {
+        text-align: center;
+    }
+    caption {
+        margin-bottom: 0.5rem;
+    }
+    thead{
+        tr {
+            th {
+                font-size: $paragraph-font-size;
+                border-bottom:  2px solid $secondary-color;
+            }
+        }
+    }
+    tbody{
+        tr {
+            td {
+                font-size: $paragraph-font-size;
+                span {
+                    font-size: $paragraph-font-size;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768px) {
+table {
+    thead{
+        tr {
+            th {
+                font-size: $paragraph-font-size-768;
+            }
+        }
+    }
+    tbody{
+        tr {
+            td {
+                font-size: $paragraph-font-size-768;
+                span {
+                    font-size: $paragraph-font-size-768;
+                }
+            }
+        }
+    }
+}
+}
+@media (min-width:1024px) {
+    .front-language {
+        margin: 0 2rem;
+    }
+    table {
+        thead{
+            tr {
+                th {
+                    font-size: $paragraph-font-size-1024;
+                }
+            }
+        }
+        tbody{
+            tr {
+                td {
+                    padding: 1rem 0;
+                    font-size: $paragraph-font-size-1024;
+                    span {
+                        font-size: $paragraph-font-size-1024;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:1280px) {
+    table {
+        thead{
+            tr {
+                th {
+                    font-size: $paragraph-font-size-1280;
+                }
+            }
+        }
+        tbody{
+            tr {
+                td {
+                    font-size: $paragraph-font-size-1280;
+                    span {
+                        font-size: $paragraph-font-size-1280;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:1440px) {
+    table {
+        thead{
+            tr {
+                th {
+                    font-size: $paragraph-font-size-1440;
+                }
+            }
+        }
+        tbody{
+            tr {
+                td {
+                    font-size: $paragraph-font-size-1440;
+                    span {
+                        font-size: $paragraph-font-size-1440;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:1824px) {
+    table {
+        thead{
+            tr {
+                th {
+                    font-size: $paragraph-font-size-1824;
+                }
+            }
+        }
+        tbody{
+            tr {
+                td {
+                    font-size: $paragraph-font-size-1824;
+                    span {
+                        font-size: $paragraph-font-size-1824;
+                    }
+                }
+            }
+        }
+    }
+}

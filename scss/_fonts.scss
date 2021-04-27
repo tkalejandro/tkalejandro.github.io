@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+//Font Family for the project
+
+* {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+
+
+
+// Global H2
+h2 {
+    font-size: $title-font-size;
+    span {
+        font-size: $title-font-size;
+        color: $primary-color;
+        font-weight: 700;
+    }
+}
+@media (min-width:768px) {
+    h2 {
+        margin-bottom: 10rem;
+        font-size: $title-font-size-768;
+        span {
+            font-size: $title-font-size-768;
+        }
+    }
+}
+@media (min-width:1024px) {
+    h2 {
+        font-size: $title-font-size-1024;
+        span {
+            font-size: $title-font-size-1024;
+        }
+    }
+}
+@media (min-width:1280px) {
+    h2 {
+        font-size: $title-font-size-1280;
+        span {
+            font-size: $title-font-size-1280;
+        }
+    }
+}
+@media (min-width:1440px) {
+    h2 {
+        font-size: $title-font-size-1440;
+        span {
+            font-size: $title-font-size-1440;
+        }
+    }
+}
+@media (min-width:1824px) {
+    h2 {
+        font-size: $title-font-size-1824;
+        span {
+            font-size: $title-font-size-1824;
+        }
+    }
+}
+
+
+// Global H3
+h3 {
+    font-size: $sub-title-font-size;
+}
+@media (min-width:768px) {
+    h3 {
+        font-size: $title-font-size-768;
+    }
+}
+@media (min-width:1024px) {
+    h3 {
+        font-size: $title-font-size-1024;
+    }
+}
+@media (min-width:1280px) {
+    h3 {
+        font-size: $title-font-size-1280;
+    }
+}
+@media (min-width:1440px) {
+    h3 {
+        font-size: $title-font-size-1440;
+    }
+}
+@media (min-width:1824px) {
+    h3 {
+        font-size: $title-font-size-1824;
+    }
+}
+
+
+
+
+// Global P
+p {
+    margin: 0.5rem 0;
+    font-size: $paragraph-font-size;
+    text-align: justify;
+    strong, em {
+        font-size: $paragraph-font-size;
+        a {
+            font-size: $paragraph-font-size;
+        }
+    }
+    span {
+        font-size: $paragraph-font-size;
+    }
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: $paragraph-font-size-768;
+        strong, em {
+            font-size: $paragraph-font-size-768;
+            a {
+                font-size: $paragraph-font-size-768;
+            }
+        }
+        span {
+            font-size: $paragraph-font-size-768;
+        }
+    }
+}
+@media (min-width: 1024px) {
+    p {
+        font-size: $paragraph-font-size-1024;
+        strong, em {
+            font-size: $paragraph-font-size-1024;
+            a {
+                font-size: $paragraph-font-size-1024;
+            }
+        }
+        span {
+            font-size: $paragraph-font-size-1024;
+        }
+    }
+}
+@media (min-width: 1280px) {
+    p {
+        font-size: $paragraph-font-size-1280;
+        strong, em {
+            font-size: $paragraph-font-size-1280;
+            a {
+                font-size: $paragraph-font-size-1280;
+            }
+        }
+        span {
+            font-size: $paragraph-font-size-1280;
+        }
+    }
+}
+@media (min-width: 1440px) {
+    p {
+        font-size: $paragraph-font-size-1440;
+        strong, em {
+            font-size: $paragraph-font-size-1440;
+            a {
+                font-size: $paragraph-font-size-1440;
+            }
+        }
+        span {
+            font-size: $paragraph-font-size-1440;
+        }
+    }
+}
+@media (min-width: 1824px) {
+    p {
+        font-size: $paragraph-font-size-1824;
+        strong, em {
+            font-size: $paragraph-font-size-1824;
+            a {
+                font-size: $paragraph-font-size-1824;
+            }
+        }
+        span {
+            font-size: $paragraph-font-size-1824;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+// Cog Animation
+
+@keyframes move-360 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+//Other Tools Animation XL Laptop
+@keyframes shake-it {
+    0% {
+        position: relative;
+        right: -10px;
+        transform: bottom rotate(-10deg);
+        color: $primary-color;
+    }
+    25% {
+        position: relative;
+        right: -5px;
+        transform: rotate(-5deg);
+    }
+    50% {
+        position: relative;
+        right:  0px;
+        transform: bottom rotate(0deg);
+    }
+    75% {
+        position: relative;
+        right: 5px;
+        transform:  rotate(5deg);
+    }
+    100%{
+        position: relative;
+        right: 10px;
+        transform:  bottom rotate(10deg);
+        color: $primary-color;
+    }
+}
+
+//My Interest Animation XXL Laptop
+@keyframes color-mix {
+    0% {
+        color: $secondary-color;
+    }
+    
+    50% {
+        color: $primary-color;
+        transform: scale(1.1);
+    }
+    100% {
+        color: $primary-color;
+        transform: scale(1.2);
+    }
+}
+
