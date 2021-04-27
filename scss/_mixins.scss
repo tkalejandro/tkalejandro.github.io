@@ -1,11 +1,12 @@
 
 //Primary Button
 @mixin primary-button {
-    font-size: $paragraph-font-size;
-    padding: 1rem 2rem;
     border-radius: $main-border-radius;
     background-color: transparent;
     margin: 2rem 0;
+    border: 1px solid $secondary-color;
+    padding: 1rem 2rem;
+    font-size: $paragraph-font-size;
     
     &:hover {
         background-color: $secondary-color;
@@ -18,8 +19,7 @@
     button {
         font-size: 3rem !important;
         padding: 2rem 4rem !important;
-        margin: 3rem 0 !important;
-        
+        margin: 3rem 0 !important; 
     }
 }
 @media (min-width:1280px) {
@@ -29,6 +29,7 @@
         margin: 2rem 0 !important;
         
     }
+
 }
 
 

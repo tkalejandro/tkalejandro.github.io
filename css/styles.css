@@ -359,11 +359,12 @@ form label {
   font-weight: 700;
 }
 form button {
-  font-size: 1.75rem;
-  padding: 1rem 2rem;
   border-radius: 10px;
   background-color: transparent;
   margin: 2rem 0;
+  border: 1px solid #2d2d2b;
+  padding: 1rem 2rem;
+  font-size: 1.75rem;
 }
 form button:hover {
   background-color: #2d2d2b;
@@ -514,6 +515,7 @@ header .welcome .info-container {
   margin: 2rem 0;
 }
 header .welcome .info-container h1 {
+  margin-top: 2rem;
   font-size: 4.5rem;
   color: #2d2d2b;
 }
@@ -613,14 +615,15 @@ main .about .text {
 main .about .text p:last-of-type {
   margin-top: 2rem;
 }
-main .about .text button {
-  font-size: 1.75rem;
-  padding: 1rem 2rem;
+main .about .text a[role=button] {
   border-radius: 10px;
   background-color: transparent;
   margin: 2rem 0;
+  border: 1px solid #2d2d2b;
+  padding: 1rem 2rem;
+  font-size: 1.75rem;
 }
-main .about .text button:hover {
+main .about .text a[role=button]:hover {
   background-color: #2d2d2b;
   border: 3px solid #a5815f;
   color: #eedcde;
@@ -803,6 +806,11 @@ footer .animation-container i {
   }
   main .about .text p {
     margin: 1rem 0;
+  }
+  main .about .text a {
+    font-size: 3rem !important;
+    padding: 2rem 4rem !important;
+    margin: 3rem 0 !important;
   }
   main .about .image img {
     max-width: 350px;
@@ -1032,6 +1040,11 @@ footer .animation-container i {
 
   main {
     padding: 0rem 8rem;
+  }
+  main .about .text a {
+    font-size: 2rem !important;
+    padding: 2rem 3.5rem !important;
+    margin: 2rem 0 !important;
   }
   main .projects .projects-container .card .card-footer ul li a {
     font-size: 2.5rem;

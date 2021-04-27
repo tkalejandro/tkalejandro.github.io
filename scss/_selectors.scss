@@ -77,7 +77,7 @@ header {
         .info-container {
             margin: 2rem 0;
             h1 {
-            
+                margin-top: 2rem;
                 font-size: $main-title-font-size;
                 color: $secondary-color;
                 span {
@@ -171,8 +171,10 @@ main {
                 }
             }
             
-            button {
-                @include primary-button;
+            a {
+                &[role="button"] {
+                    @include primary-button;
+                }
             }
         }
     }
