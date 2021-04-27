@@ -3,7 +3,7 @@ form {
     @include flex (column, space-around, center);
     input {
         width: 100%;
-        padding: 1rem 0;
+        padding: 1rem 1rem;
         margin: 1rem 0;
         border: 2px solid $secondary-deco;
         font-size: $paragraph-font-size;
