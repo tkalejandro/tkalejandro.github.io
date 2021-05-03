@@ -472,6 +472,7 @@ body {
 }
 
 header {
+  min-height: 640px;
   grid-area: header;
   display: flex;
   justify-content: center;
@@ -587,6 +588,7 @@ header .welcome .animation-container .fas:nth-of-type(4) {
 main {
   overflow-x: hidden;
   grid-area: main;
+  z-index: 1;
   padding: 0rem 2rem;
   display: grid;
   grid-template-areas: "about" "languages" "projects" "contact";
@@ -687,6 +689,7 @@ main .contact {
 }
 
 footer {
+  min-height: 640px;
   overflow-x: hidden;
   grid-area: footer;
   background-color: #f0e4d8;
