@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    min-height: 640px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.result {
+    background-color: aliceblue;
+    font-style: italic;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50vw;
+    min-width: 300px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px pink;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+button {
+    background-color: blue;
+    padding: 10px 35px 10px;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: -1px 1px 5px pink;
+    margin: 5px 0 5px;
+}
+button:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+#passwordLength {
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px 10px 10px;
+}
