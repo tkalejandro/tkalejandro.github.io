@@ -52,6 +52,10 @@ body {
     padding: 10px;
     border-radius: 5px;
 }
+.input .add-item:hover {
+    box-shadow: -1px -1px 5px lime, 1px 1px 5px lime;
+    cursor: pointer;
+}
 .the-list {
     display: flex;
     flex-direction: column;
@@ -102,5 +106,5 @@ body {
     font-size: 1.1rem;
     color: red;
     font-weight: 700;
-    
+    cursor: pointer;
 }
