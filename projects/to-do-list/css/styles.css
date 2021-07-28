@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #85FFBD;
+    background: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    height: 100vh;
+    min-height: 640px;
+    font-family: 'Open Sans', sans-serif;
+}
+.intro{
+    margin: 20px 0 20px;
+    text-align: center;
+
+}
+.intro h1  {
+    font-size: 2.5rem;
+}
+.intro p {
+    font-weight: 300;
+}
+.input {
+    margin: 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;  
+    font-weight: 300;  
+}
+.input #to-do {
+    width: 80%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin: 10px 0 10px;
+    text-align: center;
+}
+.input input:focus {
+    box-shadow: -1px -1px 5px lime, 1px 1px 5px lime;
+}
+.input .add-item {
+    background-color: goldenrod;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 5px;
+}
+.the-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.the-list h2 {
+    margin: 5px 0 30px;
+    text-decoration: underline;
+}
+.the-list .to-do-list{
+    list-style: none;
+    width: 80%;
+    background-color: floralwhite;
+   
+    box-shadow: -1px -1px 10px lightgreen, 1px 1px 10px lightgreen;
+    border-radius: 10px;
+}
+.the-list .to-do-list .to-do-done {
+    margin-right: 10px;
+    
+    
+}
+.the-list .to-do-list li {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid goldenrod;
+    text-align: center;
+    font-weight: 300;
+}
+/* *Extra Style when is checked for JS */
+.itemChecked {
+    font-style: italic;
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+/* ************************************ */
+.to-do-list li:last-of-type {
+    border-bottom: none;
+}
+
+.the-list .to-do-list .fa-window-close {
+    margin-left: 10px;
+    font-size: 1.1rem;
+    color: red;
+    font-weight: 700;
+    
+}
