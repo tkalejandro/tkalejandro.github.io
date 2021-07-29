@@ -31,7 +31,7 @@ a:hover {
   color: #c39e9e;
 }
 
-* {
+body {
   font-family: "Anonymous Pro", monospace;
 }
 
@@ -116,87 +116,87 @@ h3 {
 }
 p {
   margin: 0.5rem 0;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   text-align: justify;
 }
 p strong, p em {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 p strong a, p em a {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 p span {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
   p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   p strong, p em {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   p strong a, p em a {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   p span {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1024px) {
   p {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p strong, p em {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p strong a, p em a {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 1280px) {
   p {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p strong, p em {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p strong a, p em a {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 1440px) {
   p {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p strong, p em {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p strong a, p em a {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 1824px) {
   p {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p strong, p em {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p strong a, p em a {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   p span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 @keyframes move-360 {
@@ -261,25 +261,25 @@ table caption {
   margin-bottom: 0.5rem;
 }
 table thead tr th {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   border-bottom: 2px solid #2d2d2b;
 }
 table tbody tr td {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 table tbody tr td span {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
   table thead tr th {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   table tbody tr td {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   table tbody tr td span {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1024px) {
@@ -288,47 +288,47 @@ table tbody tr td span {
   }
 
   table thead tr th {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   table tbody tr td {
     padding: 1rem 0;
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   table tbody tr td span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 1280px) {
   table thead tr th {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   table tbody tr td {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   table tbody tr td span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 1440px) {
   table thead tr th {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   table tbody tr td {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   table tbody tr td span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 1824px) {
   table thead tr th {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   table tbody tr td {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   table tbody tr td span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 form {
@@ -343,7 +343,7 @@ form input {
   padding: 1rem 1rem;
   margin: 1rem 0;
   border: 2px solid #eedcde;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 form textarea {
   width: 100%;
@@ -352,10 +352,10 @@ form textarea {
   margin: 1rem 0;
   resize: none;
   border: 2px solid #eedcde;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 form label {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 form button {
@@ -364,7 +364,7 @@ form button {
   margin: 2rem 0;
   border: 1px solid #2d2d2b;
   padding: 1rem 2rem;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 form button:hover {
   background-color: #2d2d2b;
@@ -377,25 +377,25 @@ form button:hover {
     margin: 6rem 0;
   }
   form input {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   form textarea {
     border: 2px solid #eedcde;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   form label {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1024px) {
   form input {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   form textarea {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   form label {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 1280px) {
@@ -403,13 +403,13 @@ form button:hover {
     margin: 0rem 0;
   }
   form input {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   form textarea {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   form label {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 1440px) {
@@ -417,24 +417,24 @@ form button:hover {
     margin: 6rem 0;
   }
   form input {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   form textarea {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   form label {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 @media (min-width: 1824px) {
   form input {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   form textarea {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   form label {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 }
 body {
@@ -623,7 +623,7 @@ main .about .text a[role=button] {
   margin: 2rem 0;
   border: 1px solid #2d2d2b;
   padding: 1rem 2rem;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 main .about .text a[role=button]:hover {
   background-color: #2d2d2b;
@@ -810,11 +810,6 @@ footer .animation-container i {
   main .about .text p {
     margin: 1rem 0;
   }
-  main .about .text a {
-    font-size: 3rem !important;
-    padding: 2rem 4rem !important;
-    margin: 3rem 0 !important;
-  }
   main .about .image img {
     max-width: 350px;
     margin-bottom: 5rem;
@@ -857,7 +852,7 @@ footer .animation-container i {
     font-size: 8rem;
   }
   footer .social-links ul li a span {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   footer .signature p {
     font-size: 8rem;
@@ -899,7 +894,7 @@ footer .animation-container i {
     font-size: 3.5rem;
   }
   header nav a span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   header .welcome .info-container {
     padding: 0rem 4rem;
@@ -975,7 +970,7 @@ footer .animation-container i {
     font-size: 8rem;
   }
   footer .social-links ul li a span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   footer .signature p {
     font-size: 7rem;
@@ -999,7 +994,7 @@ footer .animation-container i {
     font-size: 3rem;
   }
   header nav a span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   header .welcome .info-container {
     padding: 0rem 8rem;
@@ -1071,7 +1066,7 @@ footer .animation-container i {
     flex-direction: column;
   }
   main .contact .contact-container .contact-details h3 {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   main .contact .contact-container .contact-details ul {
     display: flex;
@@ -1081,7 +1076,7 @@ footer .animation-container i {
   }
   main .contact .contact-container .contact-details ul li {
     padding: 2rem 0;
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   main .contact .contact-container .contact-details ul .email::before {
     font-family: FontAwesome;
@@ -1115,7 +1110,7 @@ footer .animation-container i {
     font-size: 8rem;
   }
   footer .social-links ul li a span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   footer .signature p {
     font-size: 8rem;
@@ -1133,7 +1128,7 @@ footer .animation-container i {
     font-size: 3rem;
   }
   header nav a span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   header .welcome .info-container {
     padding: 0rem 9rem;
@@ -1194,7 +1189,7 @@ footer .animation-container i {
     width: 100%;
   }
   main .languages .other-tools .tools-list li {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -1219,10 +1214,10 @@ footer .animation-container i {
     font-size: 2.5rem;
   }
   main .contact .contact-container .contact-details h3 {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   main .contact .contact-container .contact-details ul li {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 
   footer {
@@ -1232,7 +1227,7 @@ footer .animation-container i {
     font-size: 8rem;
   }
   footer .social-links ul li a span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   footer .animation-container i:nth-of-type(1) {
     color: #f6f5f0;
@@ -1262,7 +1257,7 @@ footer .animation-container i {
     font-size: 3rem;
   }
   header nav a span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   header .welcome .info-container {
     padding: 0rem 10rem;
@@ -1338,7 +1333,7 @@ footer .animation-container i {
   }
   main .about .xxl-flex-container .interest .interests-list li {
     width: 50%;
-    font-size: 2.3rem;
+    font-size: 1.7rem;
     padding: 6rem 0;
     display: flex;
     justify-content: flex-start;
@@ -1356,7 +1351,7 @@ footer .animation-container i {
     width: 50%;
   }
   main .languages .other-tools .tools-list li {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   main .languages .other-tools .tools-list li i {
     font-size: 8rem;
@@ -1368,10 +1363,10 @@ footer .animation-container i {
     font-size: 2.5rem;
   }
   main .contact .contact-container .contact-details h3 {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   main .contact .contact-container .contact-details ul li {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
 
   footer {
@@ -1392,7 +1387,7 @@ footer .animation-container i {
     font-size: 8rem;
   }
   footer .social-links ul li a span {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
   }
   footer .animation-container i:nth-of-type(1) {
     color: #f6f5f0;
