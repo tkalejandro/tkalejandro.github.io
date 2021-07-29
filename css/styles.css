@@ -1,12 +1,13 @@
 @charset "UTF-8";
+/*
+@media (min-width:768px) {
+    button {
+        font-size: 3rem !important;
+        padding: 2rem 4rem !important;
+        margin: 3rem 0 !important; 
+    }
+}*/
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@media (min-width: 768px) {
-  button {
-    font-size: 3rem !important;
-    padding: 2rem 4rem !important;
-    margin: 3rem 0 !important;
-  }
-}
 @media (min-width: 1280px) {
   button {
     font-size: 2rem !important;
@@ -47,10 +48,10 @@ h2 span {
 @media (min-width: 768px) {
   h2 {
     margin-bottom: 10rem;
-    font-size: 3.5rem;
+    font-size: 2.7rem;
   }
   h2 span {
-    font-size: 3.5rem;
+    font-size: 2.7rem;
   }
 }
 @media (min-width: 1024px) {
@@ -91,7 +92,7 @@ h3 {
 
 @media (min-width: 768px) {
   h3 {
-    font-size: 3.5rem;
+    font-size: 2.7rem;
   }
 }
 @media (min-width: 1024px) {
@@ -131,16 +132,16 @@ p span {
 
 @media (min-width: 768px) {
   p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   p strong, p em {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   p strong a, p em a {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   p span {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 @media (min-width: 1024px) {
@@ -273,13 +274,13 @@ table tbody tr td span {
 
 @media (min-width: 768px) {
   table thead tr th {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   table tbody tr td {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   table tbody tr td span {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 @media (min-width: 1024px) {
@@ -377,14 +378,14 @@ form button:hover {
     margin: 6rem 0;
   }
   form input {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   form textarea {
     border: 2px solid #eedcde;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   form label {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 @media (min-width: 1024px) {
@@ -754,7 +755,7 @@ footer .animation-container i {
   }
 
   header nav {
-    padding: 0rem 4rem;
+    padding: 0rem 4.5rem;
   }
   header nav a i {
     font-size: 2.5rem;
@@ -763,7 +764,7 @@ footer .animation-container i {
     height: 100%;
   }
   header .welcome .info-container {
-    padding: 0rem 4rem;
+    padding: 0rem 4.5rem;
   }
   header .welcome .info-container h1 {
     margin-top: 7rem;
@@ -805,7 +806,7 @@ footer .animation-container i {
   }
 
   main {
-    padding: 0rem 4rem;
+    padding: 0rem 4.5rem;
   }
   main .about .text p {
     margin: 1rem 0;
@@ -838,21 +839,24 @@ footer .animation-container i {
     width: 47%;
   }
   main .projects .projects-container .card .card-footer ul li a {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   main .projects .projects-container .card .card-footer ul li a i {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: #a5815f;
+  }
+  main .contact {
+    margin-bottom: 13rem;
   }
 
   footer {
-    padding: 0rem 4rem;
+    padding: 0rem 4.5rem;
   }
   footer .social-links ul li a i {
     font-size: 8rem;
   }
   footer .social-links ul li a span {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   footer .signature p {
     font-size: 8rem;
