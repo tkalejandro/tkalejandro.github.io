@@ -56,10 +56,10 @@ h2 span {
 }
 @media (min-width: 1024px) {
   h2 {
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
   h2 span {
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
 }
 @media (min-width: 1280px) {
@@ -97,7 +97,7 @@ h3 {
 }
 @media (min-width: 1024px) {
   h3 {
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
 }
 @media (min-width: 1280px) {
@@ -757,6 +757,9 @@ footer .animation-container i {
   header nav {
     padding: 0rem 4.5rem;
   }
+  header nav a {
+    font-size: 2.5rem;
+  }
   header nav a i {
     font-size: 2.5rem;
   }
@@ -875,7 +878,7 @@ footer .animation-container i {
   }
 
   header nav {
-    padding: 0rem 4rem;
+    padding: 0rem 8rem;
     height: 10.5rem;
     display: flex;
     justify-content: flex-end;
@@ -884,7 +887,7 @@ footer .animation-container i {
   }
   header nav .logo {
     margin-right: auto;
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 700;
   }
   header nav a {
@@ -893,15 +896,16 @@ footer .animation-container i {
     align-items: center;
     flex-direction: column;
     padding: 0 3rem;
+    font-size: 2.5rem;
   }
   header nav a i {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   header nav a span {
     font-size: 1.7rem;
   }
   header .welcome .info-container {
-    padding: 0rem 4rem;
+    padding: 0rem 8rem;
   }
   header .welcome .info-container h1 {
     font-size: 7rem;
@@ -914,7 +918,7 @@ footer .animation-container i {
     color: #f0e4d8;
     font-size: 45rem;
     position: relative;
-    top: 2rem;
+    top: 8rem;
     left: 6rem;
   }
   header .welcome .animation-container .fas:nth-of-type(2) {
@@ -940,10 +944,14 @@ footer .animation-container i {
   }
 
   main {
-    padding: 0rem 4rem;
+    padding: 0rem 8rem;
   }
   main .about {
     padding-top: 10rem;
+  }
+  main .about .image img {
+    max-width: 250px;
+    max-height: 250px;
   }
   main .languages h2 {
     padding: 5rem 0;
@@ -965,7 +973,7 @@ footer .animation-container i {
   }
 
   footer {
-    padding: 0rem 4rem;
+    padding: 0rem 8rem;
   }
   footer .name {
     padding-top: 12rem;
