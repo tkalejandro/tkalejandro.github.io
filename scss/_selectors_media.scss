@@ -69,8 +69,8 @@
             }
             .image {
                 img {
-                    max-width: 350px;
                     margin-bottom: 5rem;
+                    width: 250px;
                 }
             }
             .note {
@@ -145,7 +145,7 @@
         }
     }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1024px){
 
     body {
         // Responsive Classes
@@ -316,10 +316,13 @@
         
         }
         .welcome {
+            
             .info-container {
                 padding: $principal-padding-1280;
+                
             }
             .animation-container {
+                
                 .fas {
                     &:nth-of-type(1){
                         @include cog-properties($secondary-background, 55rem, relative, 2rem, 14rem);

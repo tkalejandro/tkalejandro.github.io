@@ -64,10 +64,10 @@ h2 span {
 }
 @media (min-width: 1280px) {
   h2 {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
   }
   h2 span {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 1440px) {
@@ -102,7 +102,7 @@ h3 {
 }
 @media (min-width: 1280px) {
   h3 {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 1440px) {
@@ -605,9 +605,8 @@ main .about .image {
 }
 main .about .image img {
   margin: 1rem 0;
-  width: 60%;
+  width: 200px;
   border-radius: 50%;
-  max-height: 350px;
 }
 main .about .text {
   display: flex;
@@ -815,8 +814,8 @@ footer .animation-container i {
     margin: 1rem 0;
   }
   main .about .image img {
-    max-width: 350px;
     margin-bottom: 5rem;
+    width: 250px;
   }
   main .about .note {
     margin-top: 4rem;
@@ -856,7 +855,7 @@ footer .animation-container i {
     padding: 0rem 4.5rem;
   }
   footer .social-links ul li a i {
-    font-size: 8rem;
+    font-size: 6rem;
   }
   footer .social-links ul li a span {
     font-size: 1.6rem;
@@ -979,7 +978,7 @@ footer .animation-container i {
     padding-top: 12rem;
   }
   footer .social-links ul li a i {
-    font-size: 8rem;
+    font-size: 6rem;
   }
   footer .social-links ul li a span {
     font-size: 1.7rem;
@@ -1119,7 +1118,7 @@ footer .animation-container i {
     padding: 0rem 8rem;
   }
   footer .social-links ul li a i {
-    font-size: 8rem;
+    font-size: 6rem;
   }
   footer .social-links ul li a span {
     font-size: 1.7rem;
