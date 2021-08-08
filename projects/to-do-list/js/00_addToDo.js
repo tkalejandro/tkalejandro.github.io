@@ -40,5 +40,8 @@ export const addToDo = () => {
 
     //Now To List!
     toDoList.appendChild(newLi)
+
+    //Reset Placeholder!
+    toDoValue.value = ``
     
 }
