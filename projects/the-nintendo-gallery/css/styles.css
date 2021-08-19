@@ -13,8 +13,8 @@ body {
                         "settings"
                         "gallery";
 
-    background-color: #000000;
-    background-image: linear-gradient(275deg, #414141 0%, #000000 100%);
+    background-color: #0b0a07;
+    background-image: linear-gradient(275deg, #748067 0%, #0b0a07 100%);
     min-height: 100vh;
     background-size: cover;
     
@@ -26,6 +26,113 @@ body {
     align-items: center;
     flex-direction: column;
     color: white;
+    
+}
+
+.settings {
+    flex-direction: column;
+    color: white;
+    
+}
+.franchiseCheckbox{
+    /* border: 1px solid #f0ec57; */
+    border: 1px solid rgba(240,236,87, 0.95);
+    background-color: rgba(187,206,168, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    max-width: 500px;
+    
+    padding: 20px;
+    border-radius: 25px;
+
+    position: fixed;
+    top: 30%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.franchiseCheckbox div {
+    margin: 3px;
+}
+
+.columns-container {
+    width: 0px;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 44px solid transparent;
+    border-right: 44px solid transparent;
+    border-bottom: 79px solid limegreen;
+    position: fixed;
+    bottom: 140px;
+    right: 10px;
+    border-radius: 5px;
+}
+.columns-container label {
+    
+    height: 0;
+    width: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 65px solid lightgreen;
+    border-radius: 5px;
+    transform: translate(0px, 41.5px);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+.columns-container label select {
+
+    transform: translate(0px, 30px);
+}
+.columns-container label span{
+    transform: translate(0px, 30px);
+    font-size: 0.9rem;
+    color: red;
+}
+
+
+/* ***********Buttons! */
+.franchiseBtn{
+    font-size: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 140px;
+    cursor: pointer;
+    color: #c16200;
+    background-color: #f0ec57;
+    border: 4px solid rgba(255,0,0,0.5);
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.settingsBtn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 60px;
+    color: greenyellow;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #006e00;
+    box-shadow: 1px 1px red 5px, -1px -1px red 5px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
     
 }
 .startBtn{
@@ -41,66 +148,43 @@ body {
     text-transform: uppercase;
     font-size: 1.2rem;
     text-align: center;
-    cursor: pointer;
-
-    
-}
-.settings {
-    flex-direction: column;
-    color: white;
-    
-}
-.franchiseCheckbox{
-    margin: auto;
-    border: 1px solid yellow;
-    background-color: rgba(50,205,50, 0.95);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    
-    padding: 20px;
-    border-radius: 25px;
-
-    position: fixed;
-    top: 50%;
-    right: 18%;
-}
-.columns-container, .numberGallery-container, .franchiseBtn {
-    width: 80px;
-    height: 80px;
-    background-color:blue;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 0.8rem;
-}
-.franchiseBtn{
-    font-size: 60px;
-    position: fixed;
-    bottom: 10px;
-    right: 140px;
-    cursor: pointer;
-}
-.columns-container select, .numberGallery-container input {
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-}
-.columns-container{
-    position: fixed;
-    bottom: 140px;
-    right: 35px;
+    cursor: pointer;    
 }
 .numberGallery-container{
     position: fixed;
     bottom: 90px;
     right: 110px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    background-color: skyblue;
+    border: 4px solid rgba(0,0,255,0.3);
+    color: red;
+    border-radius: 10px;
+    
 }
+/* ********************** */
+.numberGallery-container input {
+    border-radius: 0%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    
+    text-align: center;
+}
+.columns-container select {
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
 .vh-100{
     height: 100vh;
 }
@@ -125,21 +209,7 @@ h2 {
     visibility: hidden;
 }
 
-.settingsBtn {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    font-size: 60px;
-    color: greenyellow;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background-color: #006e00;
-    box-shadow: 1px 1px red 5px, -1px -1px red 5px;
-    border: none;
-    cursor: pointer;
-    
-}
+
 
 .gallery {
     margin: auto;
@@ -162,53 +232,14 @@ h2 {
     /* This is important for all a */
     background-size: cover;
     background-position: center;
-    box-shadow: 2px 2px 0px yellow, -2px -2px 0px darkred;
-    border-radius: 25px;
+    box-shadow: 2px 2px 0px #e3d87e, -2px -2px 0px #bbcea8;
+    border-radius: 50px;
 }
 .gallery a:hover {
     box-shadow: 2px 2px 0px blue, -2px -2px 0px greenyellow;
 }
-/*
-.gallery a:nth-of-type(2n) {
-    transform: translate(0, 50px);
-}
-*/
 
-@media (min-width: 768px) {
-    .gallery a {
-        box-shadow: 5px 5px 0px yellow, -5px -5px 0px darkred;
-    }
-    .gallery a:hover {
-        box-shadow: 5px 5px 0px blue, -5px -5px 0px greenyellow;
-    }
-}
-@media (min-width: 1024px) {
-    .gallery {
-        width: 80%;
-    }
-    .gallery a {
-        box-shadow: 6px 6px 0px yellow, -6px -6px 0px darkred;
-    }
-    .gallery a:hover {
-        box-shadow: 6px 6px 0px blue, -6px -6px 0px greenyellow;
-    }
-}
-@media (min-width: 1280px) {
-    .gallery a {
-        box-shadow: 7px 7px 0px yellow, -7px -7px 0px darkred;
-    }
-    .gallery a:hover {
-        box-shadow: 7px 7px 0px blue, -7px -7px 0px greenyellow;
-    }
-}
-@media (min-width: 1440px) {
-    .gallery a {
-        box-shadow: 8px 8px 0px yellow, -8px -8px 0px darkred;
-    }
-    .gallery a:hover {
-        box-shadow: 8px 8px 0px blue, -8px -8px 0px greenyellow;
-    }
-}
+
 .gallery-col-1 {
     width: 100%;
     padding-bottom: 100%;
@@ -244,3 +275,46 @@ h2 {
     margin: 1.3%;
 }
 
+@media  (width: 375px) {
+    .franchiseCheckbox {
+        top: 40%;
+    }
+}
+@media (min-width: 768px) {
+    .franchiseCheckbox {
+        top: 50%;
+    }
+    .gallery a {
+        box-shadow: 5px 5px 0px #e3d87e, -5px -5px 0px #bbcea8;
+    }
+    .gallery a:hover {
+        box-shadow: 5px 5px 0px blue, -5px -5px 0px greenyellow;
+    }
+}
+@media (min-width: 1024px) {
+    .gallery {
+        width: 80%;
+    }
+    .gallery a {
+        box-shadow: 6px 6px 0px #e3d87e, -6px -6px 0px #bbcea8;
+    }
+    .gallery a:hover {
+        box-shadow: 6px 6px 0px blue, -6px -6px 0px greenyellow;
+    }
+}
+@media (min-width: 1280px) {
+    .gallery a {
+        box-shadow: 7px 7px 0px #e3d87e, -7px -7px 0px #bbcea8;
+    }
+    .gallery a:hover {
+        box-shadow: 7px 7px 0px blue, -7px -7px 0px greenyellow;
+    }
+}
+@media (min-width: 1440px) {
+    .gallery a {
+        box-shadow: 8px 8px 0px #e3d87e, -8px -8px 0px #bbcea8;
+    }
+    .gallery a:hover {
+        box-shadow: 8px 8px 0px blue, -8px -8px 0px greenyellow;
+    }
+}
