@@ -73,7 +73,7 @@ body {
     right: 10px;
     border-radius: 5px;
 }
-.columns-container label {
+.columns-container label, .columnBtnContainer {
     
     height: 0;
     width: 0;
@@ -132,8 +132,15 @@ body {
     box-shadow: 1px 1px red 5px, -1px -1px red 5px;
     border: none;
     cursor: pointer;
-    z-index: 1;
-    
+    z-index: 1;   
+}
+.columnBtn {
+    font-size: 30px;
+    transform: translate(0px, 30px);
+    color: white;
+    border: 1px solid rgba(240,236,87, 0.95);
+    border-radius: 5px;
+    cursor: pointer;
 }
 .startBtn{
     margin-top: 20px;
@@ -149,6 +156,11 @@ body {
     font-size: 1.2rem;
     text-align: center;
     cursor: pointer;    
+}
+.numberGalleryBtn {
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
 }
 .numberGallery-container{
     position: fixed;
@@ -207,6 +219,10 @@ h2 {
 }
 .v-hidden {
     visibility: hidden;
+}
+.bg-white {
+    background-color: white;
+    color: rgba(118,118,118)
 }
 
 
