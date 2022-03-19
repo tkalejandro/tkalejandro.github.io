@@ -77,6 +77,7 @@ header {
     }
     .welcome {  
         @include flex (column, center, center);
+        
         .info-container {
             margin: 2rem 0;
             h1 {
@@ -111,7 +112,7 @@ header {
             @include flex (row, center, center);
             width: 100vw;
             height: 400px;
-            background-color: yellow;
+            //background-color: yellow;
             //overflow-x: hidden;
             //overflow-y: hidden;
             .fas {
@@ -159,8 +160,8 @@ main {
             img {
                 margin: 1rem 0;
                 width: 200px;
-                
-                border-radius: 50%;
+                border-radius: 20px;
+                //border-radius: 50%;
                 
                             
             }
@@ -171,7 +172,7 @@ main {
             align-items: center;
             justify-content: center;
             p {
-                
+                text-align: justify;
                 &:last-of-type {
                     margin-top: 2rem
                 }

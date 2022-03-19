@@ -158,7 +158,7 @@
         
         nav {
             padding: $principal-padding-1024;
-            height: 10.5rem;
+            height: 8.5rem;
             @include flex (row, flex-end, center);
             .logo {
                 margin-right: auto;
@@ -226,7 +226,7 @@
             .image {
                 img {
                     max-width: 250px;
-                    max-height: 250px;
+                    max-height: 300px;
                 }
             }
         }
