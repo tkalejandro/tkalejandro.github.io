@@ -37,6 +37,8 @@ body {
 }
 
 header {
+   overflow: hidden;
+  
     min-height: 640px; //This is to solve some issues that were happening when rotating the phone
     grid-area: header;
     display: flex;
@@ -109,8 +111,9 @@ header {
             @include flex (row, center, center);
             width: 100vw;
             height: 400px;
-
-            overflow: hidden;
+            background-color: yellow;
+            //overflow-x: hidden;
+            //overflow-y: hidden;
             .fas {
                &:nth-of-type(1){
                    @include cog-properties($secondary-background, 28rem, relative, 4rem, 18rem);
